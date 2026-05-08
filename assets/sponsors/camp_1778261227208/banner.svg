@@ -1,0 +1,33 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DevTool X for ads-demo">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#19221e"/>
+      <stop offset="0.58" stop-color="#18120d"/>
+      <stop offset="1" stop-color="#2a160b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1">
+      <stop offset="0" stop-color="#2f6d4f" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#fb923c" stop-opacity="0.96"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#fffdf8" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="0" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <path d="M820 -40 C1008 4 1124 95 1218 270 L1218 340 L700 340 C766 238 816 112 820 -40Z" fill="url(#panel)" opacity="0.32"/>
+  <rect x="54" y="48" width="1092" height="204" rx="22" fill="#fffaf3" fill-opacity="0.06" stroke="#fffdf8" stroke-opacity="0.13"/>
+  <rect x="88" y="76" width="124" height="30" rx="15" fill="#2f6d4f"/>
+  <text x="111" y="97" fill="#fffaf3" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700" letter-spacing="1.8">SPONSORED</text>
+  <text x="88" y="153" fill="#fffdf8" font-size="40" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="760">DevTool X for ads-demo</text>
+  <text x="88" y="191" fill="#d8d0c6" font-size="22" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Get builders to claim free credits</text>
+  <rect x="88" y="214" width="248" height="46" rx="10" fill="#fffaf3"/>
+  <text x="116" y="244" fill="#0c0a09" font-size="19" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="760">Claim free credits -&gt;</text>
+  <g transform="translate(915 69)">
+    <rect width="156" height="156" rx="30" fill="url(#panel)"/>
+    <path d="M39 99 C58 53 95 50 117 83" fill="none" stroke="#fffaf3" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="62" cy="72" r="9" fill="#fffaf3"/>
+    <circle cx="100" cy="72" r="9" fill="#fffaf3"/>
+    <path d="M45 118 H112" stroke="#fffaf3" stroke-width="10" stroke-linecap="round" opacity="0.86"/>
+  </g>
+</svg>
